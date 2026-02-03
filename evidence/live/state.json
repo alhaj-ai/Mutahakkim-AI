@@ -1,0 +1,23 @@
+{
+  "session_id": "78dc968ea18c",
+  "state": "CLOSED",
+  "owner": "AUTOMATION",
+  "generation": 1,
+  "started_at": "2026-11-14T17:43:14.188185+00:00",
+  "last_activity": "2026-11-14T17:43:16.166199+00:00",
+  "url": "",
+  "goal": "",
+  "step": "s7",
+  "checkpoint": "",
+  "last_action": "extract",
+  "screenshot": "",
+  "intervention_reason": "",
+  "expected": "",
+  "observed": "",
+  "human_actions": [],
+  "run_id": "78dc968ea18c",
+  "mode": "",
+  "surface_session_id": "00011aefc672",
+  "context_id": "0x1f166b1b4d0",
+  "page_id": "0x1f166b1bcd0"
+}

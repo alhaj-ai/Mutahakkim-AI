@@ -1,0 +1,23 @@
+{"ts": "2026-11-14T17:43:14.855884+00:00", "type": "RUN_STARTED", "run_id": "78dc968ea18c", "mode": "REPLAY", "capability": "lookup_savings_balance"}
+{"ts": "2026-11-14T17:43:14.856884+00:00", "type": "POLICY_CHECK", "run_id": "78dc968ea18c", "allowed": true}
+{"ts": "2026-11-14T17:43:15.116405+00:00", "type": "TARGET_RESOLVED", "run_id": "78dc968ea18c", "strategy": "role+accessible_name+label+stable_attribute+frame", "candidates": 6, "score": 155, "ok": true}
+{"ts": "2026-11-14T17:43:15.116405+00:00", "type": "ACTION_STARTED", "run_id": "78dc968ea18c", "step": "s2", "action": "type"}
+{"ts": "2026-11-14T17:43:15.125381+00:00", "type": "ACTION_COMPLETED", "run_id": "78dc968ea18c", "step": "s2"}
+{"ts": "2026-11-14T17:43:15.239717+00:00", "type": "TARGET_RESOLVED", "run_id": "78dc968ea18c", "strategy": "role+accessible_name+frame", "candidates": 6, "score": 100, "ok": true}
+{"ts": "2026-11-14T17:43:15.239717+00:00", "type": "ACTION_STARTED", "run_id": "78dc968ea18c", "step": "s3", "action": "click"}
+{"ts": "2026-11-14T17:43:15.291406+00:00", "type": "ACTION_COMPLETED", "run_id": "78dc968ea18c", "step": "s3"}
+{"ts": "2026-11-14T17:43:15.346115+00:00", "type": "CHECKPOINT_PASSED", "run_id": "78dc968ea18c", "step": "s3"}
+{"ts": "2026-11-14T17:43:15.426045+00:00", "type": "TARGET_RESOLVED", "run_id": "78dc968ea18c", "strategy": "role+accessible_name", "candidates": 4, "score": 80, "ok": true}
+{"ts": "2026-11-14T17:43:15.426045+00:00", "type": "ACTION_STARTED", "run_id": "78dc968ea18c", "step": "s4", "action": "click"}
+{"ts": "2026-11-14T17:43:15.463431+00:00", "type": "ACTION_COMPLETED", "run_id": "78dc968ea18c", "step": "s4"}
+{"ts": "2026-11-14T17:43:15.557441+00:00", "type": "TARGET_RESOLVED", "run_id": "78dc968ea18c", "strategy": "role+accessible_name", "candidates": 4, "score": 80, "ok": true}
+{"ts": "2026-11-14T17:43:15.557441+00:00", "type": "ACTION_STARTED", "run_id": "78dc968ea18c", "step": "s5", "action": "click"}
+{"ts": "2026-11-14T17:43:15.593051+00:00", "type": "ACTION_COMPLETED", "run_id": "78dc968ea18c", "step": "s5"}
+{"ts": "2026-11-14T17:43:15.646136+00:00", "type": "CHECKPOINT_PASSED", "run_id": "78dc968ea18c", "step": "s5"}
+{"ts": "2026-11-14T17:43:15.712880+00:00", "type": "TARGET_RESOLVED", "run_id": "78dc968ea18c", "strategy": "role+accessible_name+stable_attribute", "candidates": 5, "score": 105, "ok": true}
+{"ts": "2026-11-14T17:43:15.712880+00:00", "type": "ACTION_STARTED", "run_id": "78dc968ea18c", "step": "s6", "action": "extract"}
+{"ts": "2026-11-14T17:43:15.715355+00:00", "type": "ACTION_COMPLETED", "run_id": "78dc968ea18c", "step": "s6"}
+{"ts": "2026-11-14T17:43:15.790309+00:00", "type": "TARGET_RESOLVED", "run_id": "78dc968ea18c", "strategy": "role+accessible_name+stable_attribute", "candidates": 5, "score": 105, "ok": true}
+{"ts": "2026-11-14T17:43:15.790309+00:00", "type": "ACTION_STARTED", "run_id": "78dc968ea18c", "step": "s7", "action": "extract"}
+{"ts": "2026-11-14T17:43:15.791729+00:00", "type": "ACTION_COMPLETED", "run_id": "78dc968ea18c", "step": "s7"}
+{"ts": "2026-11-14T17:43:15.818995+00:00", "type": "RUN_SUCCEEDED", "run_id": "78dc968ea18c", "outputs": {"savings_balance": "$12040.00", "member_name": "Marcus Chen"}, "model_calls": 0}
