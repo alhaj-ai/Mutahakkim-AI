@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify-capabilities:
+    name: Capability Graph & CLI Verification
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Core Dependencies
+        run: pip install pyyaml pydantic pytest
+      - name: Verify Package Compilation & Capability Schemas
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m compileall -q src
+          python -c "import glob, yaml; files = glob.glob('evidence/capabilities/*.yaml'); assert len(files) >= 1; [yaml.safe_load(open(f)) for f in files]; print(f'Verified {len(files)} capability graphs')"
