@@ -111,6 +111,14 @@ python -m mutahakkim.cli replay --capability lookup_savings_balance --member-id 
 
 ---
 
+
+### هيكل الحزم (Package Architecture)
+
+- `src/computer_use/`: الحزمة الأساسية لمحرك الاستكشاف، مترجم القدرات (`CapabilityCompiler`)، ونواة التشغيل الحتمي (`ReplayEngine`).
+- `src/mutahakkim/`: واجهة سطر الأوامر الثنائية (`python -m mutahakkim.cli`) المصدّرة رسمياً في `pyproject.toml` والمستخدمة في `Makefile`.
+
+---
+
 ## 🚀 دليل التشغيل (Quick Start)
 
 ### 1️⃣ واجهة المستخدم (Next.js 14)
